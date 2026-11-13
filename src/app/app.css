@@ -1,0 +1,59 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.topbar {
+  align-items: center;
+  background: #f5d400;
+  display: flex;
+  justify-content: space-between;
+  min-height: 120px;
+  padding: 1.25rem clamp(1rem, 4vw, 3rem);
+}
+
+.brand,
+.wishlist-link {
+  color: #000;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.brand {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  letter-spacing: -0.06em;
+  line-height: 1;
+}
+
+.wishlist-link {
+  align-items: center;
+  background: #0f0f0f;
+  border-radius: 0.9rem;
+  color: #fff;
+  display: flex;
+  gap: 0.7rem;
+  padding: 1rem 1.2rem;
+  transition: opacity 0.2s ease;
+}
+
+.wishlist-link:hover {
+  opacity: 0.9;
+}
+
+.wishlist-link fa-icon {
+  color: #f5d400;
+  font-size: 1.4rem;
+}
+
+main {
+  background: #000;
+  margin: 0;
+  max-width: none;
+  padding: 0;
+}
